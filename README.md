@@ -26,3 +26,5 @@ The picture below defines the relationship between attributes.
 
 ### Source
 The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/)
+
+#### Here are some list of queries with their ouput.
