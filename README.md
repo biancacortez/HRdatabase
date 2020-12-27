@@ -7,4 +7,4 @@ It is a SQL Sample Database called HR that manages the HR data of the small busi
 # Entity Relationship Diagram
 ER Digram shows how our entities relate to each other within a system.
 
-![image]()
+![image](https://github.com/biancacortez/HRdatabase/blob/main/img/ERD.PNG)
