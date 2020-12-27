@@ -28,3 +28,22 @@ The picture below defines the relationship between attributes.
 The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/)
 
 #### Here are some list of queries with their ouput.
+
+1. **' Query 1 '**
+    1. **`Query 1: `**
+       ```SQL
+         DELIMITER //
+         
+         SELECT
+            employees.employee_id,
+            employees.first_name,
+            employees.last_name,
+            departments.department_id,
+            departments.department_name
+        FROM
+            departments
+        JOIN employees ON departments.department_id = employees.department_id //
+
+         DELIMITER ;
+       ```
+    
