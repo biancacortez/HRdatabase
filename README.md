@@ -96,5 +96,5 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
          DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/2.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/4.PNG)
    Importance: Used in where cluase to search for a specified pattern in a column.
