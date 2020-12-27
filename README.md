@@ -64,4 +64,19 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/1.PNG)
    Importance: Used to sort the result-set in ascending or descending order.
+   
+   3. **`Query 3: `**
+   NULL: A field with a NULL value is a field with no value, but a NULL values also indicate that you could have a value but don’t know what value should be yet.
+   
+       ```SQL
+         DELIMITER //
+                 
+         SELECT first_name, last_name,phone_number
+         FROM employees
+         WHERE phone_number IS NULL;
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/2.PNG)
+   Importance: This query can help you especially when every field in a table should have a value.
     
