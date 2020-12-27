@@ -25,4 +25,4 @@ The picture below defines the relationship between attributes.
 ![image](https://github.com/biancacortez/HRdatabase/blob/main/img/FDD.PNG)
 
 ### Source
-The sample data can be download [here](https://www.sqltutorial.org/what-is-sql/)
+The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/)
