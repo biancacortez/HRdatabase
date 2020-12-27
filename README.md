@@ -28,8 +28,9 @@ The picture below defines the relationship between attributes.
 The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/)
 
 #### Here are some list of queries with their ouput.
-
    1. **`Query 1: `**
+      An inner join will combine rows from different tables if the join condition is true.
+   
        ```SQL
          DELIMITER //
          
