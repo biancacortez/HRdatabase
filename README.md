@@ -79,4 +79,22 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/2.PNG)
    Importance: This query can help you especially when every field in a table should have a value.
-    
+   
+    4. **`Query 4: `**
+   LIKe: This operator is used to compare between the two conditions and lists down all the rows of a table whose column name matches the pattern specified with the LIKE clause.
+   
+       ```SQL
+         DELIMITER //
+                 
+      SELECT
+          last_name,
+          first_name
+      FROM
+          `employees`
+      WHERE
+          last_name LIKE 'C%';
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/2.PNG)
+   Importance: Used in where cluase to search for a specified pattern in a column.
