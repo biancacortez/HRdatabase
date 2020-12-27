@@ -29,9 +29,10 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
 #### Here are some list of queries with their ouput.
 
-    1. **`Query 1: `**
+   1. **`Query 1: `**
        ```SQL
          DELIMITER //
+         
          
          SELECT
             employees.employee_id,
