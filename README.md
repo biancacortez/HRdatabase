@@ -48,4 +48,5 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/5.PNG)
+   ### Importance: It is important and useful when you want to retrieved data by combining column values of two table.
     
