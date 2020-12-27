@@ -29,7 +29,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
 #### Here are some list of queries with their ouput.
    1. **`Query 1: `**
-      An inner join will combine rows from different tables if the join condition is true.
+     INEER JOIN: An inner join will combine rows from different tables if the join condition is true.
    
        ```SQL
          DELIMITER //
@@ -51,7 +51,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
    Importance: It is important and useful when you want to retrieved data by combining column values of two table.
    
    2. **`Query 2: `**
-   ORDER BY: This is used along with the select statement to sort the results either in ascending order or descending order. 
+     ORDER BY: This is used along with the select statement to sort the results either in ascending order or descending order. 
    
        ```SQL
          DELIMITER //
@@ -66,7 +66,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
    Importance: Used to sort the result-set in ascending or descending order.
    
    3. **`Query 3: `**
-   NULL: A field with a NULL value is a field with no value, but a NULL values also indicate that you could have a value but don’t know what value should be yet.
+     NULL: A field with a NULL value is a field with no value, but a NULL values also indicate that you could have a value but don’t know what value should be yet.
    
        ```SQL
          DELIMITER //
@@ -81,7 +81,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
    Importance: This query can help you especially when every field in a table should have a value.
    
    4. **`Query 4: `**
-   LIKe: This operator is used to compare between the two conditions and lists down all the rows of a table whose column name matches the pattern specified with the LIKE clause.
+     LIKe: This operator is used to compare between the two conditions and lists down all the rows of a table whose column name matches the pattern specified with the LIKE clause.
    
        ```SQL
          DELIMITER //
