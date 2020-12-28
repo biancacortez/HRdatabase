@@ -173,4 +173,29 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/8.PNG)
-   Importance: Can be use when we combine fields from different tables bu using common values.      
+   Importance: Can be use when we combine fields from different tables bu using common values.  
+   
+   9. **`Query 9: `**
+     SUBQUERY: A subquery is a query that is nested inside a SELECT , INSERT , UPDATE , or DELETE statement, or inside another subquery. 
+   
+       ```SQL
+         DELIMITER //
+                 
+      SELECT first_name 
+      FROM employees 
+      WHERE department_id IN 
+      (SELECT department_id 
+      FROM departments 
+      WHERE location_id IN 
+      (SELECT location_id 
+      FROM locations 
+      WHERE country_id = 
+      (SELECT country_id 
+      FROM countries 
+      WHERE country_name='United Kingdom')));
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/8.PNG)
+   Importance: A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved..
+
