@@ -81,7 +81,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
    Importance: This query can help you especially when every field in a table should have a value.
    
    4. **`Query 4: `**
-     LIKe: This operator is used to compare between the two conditions and lists down all the rows of a table whose column name matches the pattern specified with the LIKE clause.
+     LIKE: This operator is used to compare between the two conditions and lists down all the rows of a table whose column name matches the pattern specified with the LIKE clause.
    
        ```SQL
          DELIMITER //
@@ -131,9 +131,9 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
           region_id,
           region_name,
           CASE WHEN region_name = 'Europe' THEN 'Bonjour!'
-            WHEN region_name = 'Americas' THEN 'Hey?' 
-              WHEN region_name = 'Asia' THEN 'Hello!'
-              ELSE 'MArhaba'
+               WHEN region_name = 'Americas' THEN 'Hey?' 
+               WHEN region_name = 'Asia' THEN 'Hello!'
+               ELSE 'MArhaba'
       END AS mylanguage
       FROM
           regions;
