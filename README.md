@@ -105,18 +105,18 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```SQL
          DELIMITER //
                  
-    SELECT
-       job_title,
-       max_salary,
-       DENSE_RANK() OVER(
-       PARTITION BY max_salary
-    ORDER BY
-       job_title
-      ) AS ranking
-    FROM
-       jobs;
+       SELECT
+          job_title,
+          max_salary,
+          DENSE_RANK() OVER(
+          PARTITION BY max_salary
+       ORDER BY
+          job_title
+         ) AS ranking
+       FROM
+          jobs;
 
          DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/4.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a5.PNG)
    Importance: It calculates the rank of a row in an ordered set of rows..
