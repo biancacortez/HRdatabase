@@ -119,4 +119,26 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a5.PNG)
-   Importance: It calculates the rank of a row in an ordered set of rows..
+   Importance: It calculates the rank of a row in an ordered set of rows.
+   
+   5. **`Query 5: `**
+     CASE: The CASE statement goes through conditions and returns a value when the first condition is met (like an IF-THEN-ELSE statement).
+   
+       ```SQL
+         DELIMITER //
+                 
+      SELECT
+          region_id,
+          region_name,
+          CASE WHEN region_name = 'Europe' THEN 'Bonjour!'
+            WHEN region_name = 'Americas' THEN 'Hey?' 
+              WHEN region_name = 'Asia' THEN 'Hello!'
+              ELSE 'MArhaba'
+      END AS mylanguage
+      FROM
+          regions;
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a5.PNG)
+   Importance: The CASE statement is used to retrieve data based on a few conditions. 
