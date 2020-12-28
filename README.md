@@ -172,5 +172,5 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
          DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/7.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/8.PNG)
    Importance: Can be use when we combine fields from different tables bu using common values.      
