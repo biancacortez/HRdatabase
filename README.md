@@ -98,3 +98,25 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/4.PNG)
    Importance: Used in where cluase to search for a specified pattern in a column.
+   
+   5. **`Query 5: `**
+     DENSE_RANK(): It is an analytic query that computes the rank of a row in an arranged collection of rows.
+   
+       ```SQL
+         DELIMITER //
+                 
+    SELECT
+       job_title,
+       max_salary,
+       DENSE_RANK() OVER(
+       PARTITION BY max_salary
+    ORDER BY
+       job_title
+      ) AS ranking
+    FROM
+       jobs;
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/4.PNG)
+   Importance: It calculates the rank of a row in an ordered set of rows..
