@@ -143,7 +143,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a6.PNG)
    Importance: The CASE statement is used to retrieve data based on a few conditions. 
    
-   6. **`Query 6: `**
+   7. **`Query 7: `**
      UNION: query is to combine the results of two queries together while removing duplicates.
    
        ```SQL
