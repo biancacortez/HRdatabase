@@ -10,7 +10,7 @@ ER Digram shows how our entities relate to each other within a system.
 ![image](https://github.com/biancacortez/HRdatabase/blob/main/img/ERD.PNG)
 
 ### Table Names and Description
-1.	The HR sample database has seven tables.
+1. The HR sample database has seven tables.
 2.	The employees table stores the data of employees.
 3.	The jobs table stores the job data including job title and salary range.
 4.	The departments table stores department data.
