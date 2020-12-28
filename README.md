@@ -157,3 +157,20 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/7.PNG)
    Importance: It removes duplicate rows between the various SELECT statements. 
+          
+   8. **`Query 8: `**
+     JOINS :combines columns from one or more tables in a relational database.
+   
+       ```SQL
+         DELIMITER //
+                 
+      SELECT employees.first_name , employees.last_name , 
+       employees.department_id , departments.department_name 
+      FROM employees  
+      JOIN departments  
+        ON employees.department_id = departments.department_id;
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/7.PNG)
+   Importance: Can be use when we combine fields from different tables bu using common values.      
