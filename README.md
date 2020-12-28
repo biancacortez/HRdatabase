@@ -121,7 +121,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a5.PNG)
    Importance: It calculates the rank of a row in an ordered set of rows.
    
-   5. **`Query 5: `**
+   6. **`Query 6: `**
      CASE: The CASE statement goes through conditions and returns a value when the first condition is met (like an IF-THEN-ELSE statement).
    
        ```SQL
@@ -140,5 +140,5 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
          DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a5.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a6.PNG)
    Importance: The CASE statement is used to retrieve data based on a few conditions. 
