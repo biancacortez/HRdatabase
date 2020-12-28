@@ -196,6 +196,6 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
          DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/8.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/9.PNG)
    Importance: A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved..
 
