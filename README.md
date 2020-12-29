@@ -414,3 +414,30 @@ xii. **`Query 12: `**
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/ntile.PNG)
   ##### Importance:  NTILE() function can be use when assigning a number_expression for every row in a group, to which the row belongs.
+  
+  xviii. **`Query 18: `**
+     PARTITION BY: The PARTITION BY clause is a subclause of the OVER clause. 
+   
+ ```SQL
+         DELIMITER //
+                 
+         SELECT
+             last_name,
+             salary,
+             department_id,
+             salary,
+             MAX(salary) over(
+         PARTITION BY department_id
+         ), job_id, MAX(salary) over(
+         PARTITION BY job_id
+         )
+         FROM
+             employees
+         WHERE
+             department_id IN(9,10,11)
+          
+          DELIMITER ;
+  ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/ntile.PNG)
+  ##### Importance:  We use SQL PARTITION BY to divide the result set into partitions and perform computation on each subset of partitioned data.
+  
