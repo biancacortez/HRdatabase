@@ -266,6 +266,20 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
               ', ',
               NEW.state_province
           );
+          DELIMITER ;
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/11.PNG)
    Importance:  The trigger is mostly used for maintaining the integrity of the information on the database.
+   
+   12 **`Query 12: `**
+     CONVERT: The CONVERT() function allows you to convert a value of one type to another. 
+   
+       ```SQL
+         DELIMITER //
+                 
+      SELECT max_salary, CONVERT (max_salary, INTEGER) rounded_price FROM jobs;
+          
+          DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/11.PNG)
+   Importance:  IT us useful because the CONVERT() function converts a value (of any type) into a specified datatype.
