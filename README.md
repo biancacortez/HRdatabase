@@ -198,5 +198,19 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/9.PNG)
-   Importance: A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved..
+   Importance: A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.
+   
+10 **`Query 10: `**
+     CONCAT:The CONCAT() function adds two or more strings together. 
+   
+       ```SQL
+         DELIMITER //
+                 
+      ALTER TABLE locations ADD COLUMN complete_address VARCHAR(50);
+      UPDATE locations SET complete_address = CONCAT(street_address,', ',city,', ',state_province);
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/9.PNG)
+   Importance: The CONCAT function implicitly coverts all arguments to string types and then concatenate the inputs.
 
