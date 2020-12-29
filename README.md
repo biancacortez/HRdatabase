@@ -461,5 +461,5 @@ xii. **`Query 12: `**
           
           DELIMITER ;
   ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/partitionby.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/cumsum.PNG)
   ##### Importance:  Can be use to get the sum of values in all cells of a column that precedes the next cell in that particular column.
