@@ -1,6 +1,6 @@
 ## Contents
 
-* Database all about
+* The Sample Database 
 * Entity Relationship Diagram
 * Table Names and Description
 * Database Dependency Diagram
