@@ -71,7 +71,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
    ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/5.PNG)
-   Importance: It is important and useful when you want to retrieved data by combining column values of two table.
+   ##### Importance: It is important and useful when you want to retrieved data by combining column values of two table.
    
    ii. **`Query 2: `**
      RIGHT JOIN: The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1).
@@ -92,7 +92,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/rightjoin.PNG)
-   Importance: The use RIGHT OUTER JOIN is to try to make your SQL more self-documenting. 
+   ##### Importance: The use RIGHT OUTER JOIN is to try to make your SQL more self-documenting. 
    
    iii. **`Query 3: `**
      ORDER BY: This is used along with the select statement to sort the results either in ascending order or descending order. 
@@ -107,7 +107,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/1.PNG)
-   Importance: Used to sort the result-set in ascending or descending order.
+   ##### Importance: Used to sort the result-set in ascending or descending order.
    
    iv. **`Query 4: `**
      NULL: A field with a NULL value is a field with no value, but a NULL values also indicate that you could have a value but don’t know what value should be yet.
@@ -122,7 +122,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
    ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/2.PNG)
-   Importance: This query can help you especially when every field in a table should have a value.
+   ##### Importance: This query can help you especially when every field in a table should have a value.
    
    v. **`Query 5: `**
      LIKE: This operator is used to compare between the two conditions and lists down all the rows of a table whose column name matches the pattern specified with the LIKE clause.
@@ -141,7 +141,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/4.PNG)
-   Importance: Used in where cluase to search for a specified pattern in a column.
+  ##### Importance: Used in where cluase to search for a specified pattern in a column.
    
    vi. **`Query 6: `**
      DENSE_RANK(): It is an analytic query that computes the rank of a row in an arranged collection of rows.
@@ -163,7 +163,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a5.PNG)
-   Importance: It calculates the rank of a row in an ordered set of rows.
+  ##### Importance: It calculates the rank of a row in an ordered set of rows.
    
    vii. **`Query 7: `**
      CASE: The CASE statement goes through conditions and returns a value when the first condition is met (like an IF-THEN-ELSE statement).
@@ -185,7 +185,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/a6.PNG)
-   Importance: The CASE statement is used to retrieve data based on a few conditions. 
+  ##### Importance: The CASE statement is used to retrieve data based on a few conditions. 
    
    viii. **`Query 8: `**
      UNION: query is to combine the results of two queries together while removing duplicates.
@@ -200,7 +200,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/7.PNG)
-   Importance: It removes duplicate rows between the various SELECT statements. 
+  ##### Importance: It removes duplicate rows between the various SELECT statements. 
           
    ix. **`Query 9: `**
      JOINS :combines columns from one or more tables in a relational database.
@@ -218,7 +218,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/8.PNG)
-   Importance: Can be use when we combine fields from different tables bu using common values.  
+  ##### Importance: Can be use when we combine fields from different tables bu using common values.  
    
    x. **`Query 10: `**
      SUBQUERY: A subquery is a query that is nested inside a SELECT , INSERT , UPDATE , or DELETE statement, or inside another subquery. 
@@ -257,7 +257,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER ;
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/9.PNG)
-   Importance: A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.
+  ##### Importance: A subquery is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.
    
 xi. **`Query 11: `**
      CONCAT:The CONCAT() function adds two or more strings together. 
@@ -281,7 +281,7 @@ xi. **`Query 11: `**
          DELIMITER ;
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/10.PNG)
-   Importance: The CONCAT function implicitly coverts all arguments to string types and then concatenate the inputs.
+  ##### Importance: The CONCAT function implicitly coverts all arguments to string types and then concatenate the inputs.
    
 xii. **`Query 12: `**
      Triggers: Help the database designer ensure certain actions, such as maintaining an audit file, are completed regardless of which program or user makes changes to the data. 
@@ -313,7 +313,7 @@ xii. **`Query 12: `**
           DELIMITER ;
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/11.PNG)
-   Importance:  The trigger is mostly used for maintaining the integrity of the information on the database.
+  ##### Importance:  The trigger is mostly used for maintaining the integrity of the information on the database.
    
    xiii. **`Query 13: `**
      CONVERT: The CONVERT() function allows you to convert a value of one type to another. 
@@ -326,7 +326,7 @@ xii. **`Query 12: `**
           DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/12.PNG)
-   Importance:  It is useful because the CONVERT() function converts a value (of any type) into a specified datatype.
+  ##### Importance:  It is useful because the CONVERT() function converts a value (of any type) into a specified datatype.
    
    xiv. **`Query 14: `**
      RANK: The RANK() function is a window function that assigns a rank to each row within a partition of a result set. 
@@ -349,7 +349,7 @@ xii. **`Query 12: `**
           DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/13.PNG)
-   Importance:  This function is useful in assigning a rank to each row within a partition of a result set.
+  ##### Importance:  This function is useful in assigning a rank to each row within a partition of a result set.
    
    xv. **`Query 15: `**
      COUNT(): COUNT() returns the number of rows in a specified table, and it preserves duplicate rows.  
@@ -368,7 +368,7 @@ xii. **`Query 12: `**
           DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/count.PNG)
-   Importance:  It can use when counting datas within the column.
+  ##### Importance:  It can use when counting datas within the column.
    
   xvi. **`Query 16: `**
      HAVING: A HAVING clause in SQL specifies that an SQL SELECT statement must only return rows where aggregate values meet the specified conditions.  
@@ -389,7 +389,7 @@ xii. **`Query 12: `**
           DELIMITER ;
  ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/having.PNG)
-   Importance:  To view the present condition formed by the GROUP BY clause, the HAVING clause is used.
+  ##### Importance:  To view the present condition formed by the GROUP BY clause, the HAVING clause is used.
 
  xvii. **`Query 17: `**
      NTILE: The NTILE enables users to split a sequence set into a detailed number of relatively similar groups, or containers, rows sanctioning.  
@@ -413,4 +413,4 @@ xii. **`Query 12: `**
           DELIMITER ;
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/ntile.PNG)
-   Importance:  NTILE() function can be use when assigning a number_expression for every row in a group, to which the row belongs.
+  ##### Importance:  NTILE() function can be use when assigning a number_expression for every row in a group, to which the row belongs.
