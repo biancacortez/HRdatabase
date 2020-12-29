@@ -75,7 +75,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
          DELIMITER ;
    ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/innerjoin.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/groupby.PNG)
    ##### Importance:  Used to arrange identical data into groups with the help of some functions.
    
    ii. **`Query 2: `**
@@ -214,7 +214,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER //
                  
       SELECT 
-         employees.first_name , employees.last_name , 
+         employee_id,employees.first_name , employees.last_name , 
          employees.department_id , departments.department_name 
       FROM employees  
       JOIN departments  
@@ -222,7 +222,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
          DELIMITER ;
  ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/8.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/innerjoin.PNG)
   ##### Importance: Can be use when we combine fields from different tables bu using common values.  
    
    x. **`Query 10: `**
