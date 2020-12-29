@@ -182,18 +182,33 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```SQL
          DELIMITER //
                  
-      SELECT first_name 
-      FROM employees 
-      WHERE department_id IN 
-      (SELECT department_id 
-      FROM departments 
-      WHERE location_id IN 
-      (SELECT location_id 
-      FROM locations 
-      WHERE country_id = 
-      (SELECT country_id 
-      FROM countries 
-      WHERE country_name='United Kingdom')));
+      SELECT
+          first_name
+      FROM
+          employees
+      WHERE
+          department_id IN(
+          SELECT
+              department_id
+          FROM
+              departments
+          WHERE
+              location_id IN(
+              SELECT
+                  location_id
+              FROM
+                  locations
+              WHERE
+                  country_id =(
+                  SELECT
+                      country_id
+                  FROM
+                      countries
+                  WHERE
+                      country_name = 'United Kingdom'
+              )
+          )
+      );
 
          DELIMITER ;
        ```
@@ -206,11 +221,21 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```SQL
          DELIMITER //
                  
-      ALTER TABLE locations ADD COLUMN complete_address VARCHAR(50);
-      UPDATE locations SET complete_address = CONCAT(street_address,', ',city,', ',state_province);
+      ALTER TABLE
+         locations ADD COLUMN complete_address VARCHAR(50);
+      UPDATE
+          locations
+      SET
+          complete_address = CONCAT(
+              street_address,
+              ', ',
+              city,
+              ', ',
+              state_province
+          );
 
          DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/9.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/10.PNG)
    Importance: The CONCAT function implicitly coverts all arguments to string types and then concatenate the inputs.
 
