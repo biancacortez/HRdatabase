@@ -282,4 +282,27 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
           DELIMITER ;
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/12.PNG)
-   Importance:  IT us useful because the CONVERT() function converts a value (of any type) into a specified datatype.
+   Importance:  It is useful because the CONVERT() function converts a value (of any type) into a specified datatype.
+   
+   13 **`Query 13: `**
+     RANK: The RANK() function is a window function that assigns a rank to each row within a partition of a result set. 
+   
+       ```SQL
+         DELIMITER //
+                 
+      SELECT
+       employee_id,
+       last_name,
+       first_name,
+       hire_date,
+       RANK() over(
+      ORDER BY
+          hire_date
+      ) latest
+      FROM
+          employees;
+          
+          DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/12.PNG)
+   Importance:  This function is useful in assigning a rank to each row within a partition of a result set.
