@@ -214,7 +214,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
          DELIMITER //
                  
       SELECT 
-         employee_id,employees.first_name , employees.last_name , 
+         employees.employee_id,employees.first_name , employees.last_name , 
          employees.department_id , departments.department_name 
       FROM employees  
       JOIN departments  
