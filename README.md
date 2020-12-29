@@ -281,5 +281,5 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
           
           DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/11.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/12.PNG)
    Importance:  IT us useful because the CONVERT() function converts a value (of any type) into a specified datatype.
