@@ -267,5 +267,5 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
               NEW.state_province
           );
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/10.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/11.PNG)
    Importance:  The trigger is mostly used for maintaining the integrity of the information on the database.
