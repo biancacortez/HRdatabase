@@ -304,5 +304,5 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
           
           DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/12.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/13.PNG)
    Importance:  This function is useful in assigning a rank to each row within a partition of a result set.
