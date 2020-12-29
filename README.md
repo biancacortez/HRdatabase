@@ -367,3 +367,27 @@ xii. **`Query 12: `**
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/having.PNG)
    Importance:  To view the present condition formed by the GROUP BY clause, the HAVING clause is used.
+
+ xvii. **`Query 17: `**
+     NTILE: The NTILE enables users to split a sequence set into a detailed number of relatively similar groups, or containers, rows sanctioning.  
+   
+       ```SQL
+         DELIMITER //
+                 
+         SELECT
+          employee_id,
+          first_name,
+          last_name,
+          job_id,
+          salary,
+       NTILE(10) OVER(
+         ORDER BY
+          salary
+         ) AS container_no
+         FROM
+             employees;
+          
+          DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/having.PNG)
+   Importance:  NTILE() function can be use when assigning a number_expression for every row in a group, to which the row belongs.
