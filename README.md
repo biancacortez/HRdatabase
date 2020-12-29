@@ -463,3 +463,21 @@ xii. **`Query 12: `**
   ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/cumsum.PNG)
   ##### Importance:  Can be use to get the sum of values in all cells of a column that precedes the next cell in that particular column.
+
+ xiv. **`Query 19: `**
+     The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. 
+   
+ ```SQL
+         DELIMITER //
+                 
+      SELECT
+          *
+      FROM
+          employees
+      WHERE
+          salary BETWEEN 10000.00 AND 20000.00;
+          
+          DELIMITER ;
+  ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/cumsum.PNG)
+  ##### Importance:  The SQL BETWEEN condition allows you to easily test if an expression is within a range of values (inclusive). The values can be text, date, or numbers.
