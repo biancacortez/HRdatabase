@@ -52,26 +52,31 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
 #### Here are some list of queries with their ouput.
    i. **`Query 1: `**
-     INNER JOIN: An inner join will combine rows from different tables if the join condition is true.
+     GROUP BY: The ‘Group By’ property groups the resulting data according to the specified attribute.
    
   ```SQL
          DELIMITER //
          
-         
-         SELECT
-            employees.employee_id,
-            employees.first_name,
-            employees.last_name,
-            departments.department_id,
-            departments.department_name
-        FROM
-            departments
-        JOIN employees ON departments.department_id = employees.department_id //
+      SELECT
+          employee_id,
+          last_name,
+          first_name,
+          job_id,
+          salary
+      FROM
+          employees
+      WHERE
+          salary > 15000.00
+      GROUP BY
+          employee_id,
+          salary
+      ORDER BY
+          employee_id; //
 
          DELIMITER ;
    ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/innerjoin.PNG)
-   ##### Importance: It is important and useful when you want to retrieved data by combining column values of two table.
+   ##### Importance:  Used to arrange identical data into groups with the help of some functions.
    
    ii. **`Query 2: `**
      RIGHT JOIN: The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1).
@@ -464,7 +469,7 @@ xii. **`Query 12: `**
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/cumsum.PNG)
   ##### Importance:  Can be use to get the sum of values in all cells of a column that precedes the next cell in that particular column.
 
- xiv. **`Query 19: `**
+ xx. **`Query 20: `**
      The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. 
    
  ```SQL
