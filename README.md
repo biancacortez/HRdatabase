@@ -347,7 +347,7 @@ xii. **`Query 12: `**
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/count.PNG)
    Importance:  It can use when counting datas within the column.
    
-  xvi. **`Query 15: `**
+  xvi. **`Query 16: `**
      HAVING: A HAVING clause in SQL specifies that an SQL SELECT statement must only return rows where aggregate values meet the specified conditions.  
    
        ```SQL
