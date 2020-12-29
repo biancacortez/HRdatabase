@@ -32,8 +32,7 @@ ER Digram shows how our entities relate to each other within a system.
 The picture below defines the relationship between attributes.
 
 ![image](https://github.com/biancacortez/HRdatabase/blob/main/img/FDD.PNG)
-
-'''css
+###
 FD1 (employee_id -> firs_name,last_name,email,phone_number,hire_date,job_id{fk},salary,manager_id,department_id{fk})partial dependency
 
 FD2 (dependent_id -> frist_name,last_name,relationship,employee-id{fk})partial dependency
@@ -47,7 +46,7 @@ FD5 (location_id ->street_address,postal_code,city,satate_province,country_id{fk
 FD6 (country_id -> country_name,region_id{fk})partial dependency
 
 FD7 (region_id -> region_name)partial dependency
-'''
+###
 ### Source
 The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/)
 
