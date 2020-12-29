@@ -441,3 +441,25 @@ xii. **`Query 12: `**
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/partitionby.PNG)
   ##### Importance:  We use SQL PARTITION BY to divide the result set into partitions and perform computation on each subset of partitioned data.
   
+  xiv. **`Query 19: `**
+     When SUM is used with ROWS BETWEEN we can produce cumulative totals. 
+   
+ ```SQL
+         DELIMITER //
+                 
+       SELECT
+          last_name,
+          salary,
+       SUM(salary) over(
+       ORDER BY
+           last_name ROWS BETWEEN unbounded preceding AND current ROW
+      ) Cum_sum
+      FROM
+          employees
+      WHERE
+          department_id IN(8, 9, 10, 11)
+          
+          DELIMITER ;
+  ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/partitionby.PNG)
+  ##### Importance:  Can be use to get the sum of values in all cells of a column that precedes the next cell in that particular column.
