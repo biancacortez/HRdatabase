@@ -346,3 +346,24 @@ xii. **`Query 12: `**
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/count.PNG)
    Importance:  It can use when counting datas within the column.
+   
+  xvi. **`Query 15: `**
+     HAVING: A HAVING clause in SQL specifies that an SQL SELECT statement must only return rows where aggregate values meet the specified conditions.  
+   
+       ```SQL
+         DELIMITER //
+                 
+      SELECT
+          job_id,
+          AVG(salary)
+      FROM
+          employees
+      GROUP BY
+          job_id
+      HAVING
+          AVG(salary) > 10000
+          
+          DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/count.PNG)
+   Importance:  To view the present condition formed by the GROUP BY clause, the HAVING clause is used.
