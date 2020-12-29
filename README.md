@@ -479,5 +479,5 @@ xii. **`Query 12: `**
           
           DELIMITER ;
   ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/cumsum.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/between.PNG)
   ##### Importance:  The SQL BETWEEN condition allows you to easily test if an expression is within a range of values (inclusive). The values can be text, date, or numbers.
