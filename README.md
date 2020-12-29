@@ -68,7 +68,7 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
 
          DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/5.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/rightjoin.PNG)
    Importance: The use RIGHT OUTER JOIN is to try to make your SQL more self-documenting. 
    
    2. **`Query 2: `**
