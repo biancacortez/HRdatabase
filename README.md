@@ -344,5 +344,5 @@ xii. **`Query 12: `**
           
           DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/13.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/count.PNG)
    Importance:  It can use when counting datas within the column.
