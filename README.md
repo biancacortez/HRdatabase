@@ -365,5 +365,5 @@ xii. **`Query 12: `**
           
           DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/count.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/having.PNG)
    Importance:  To view the present condition formed by the GROUP BY clause, the HAVING clause is used.
