@@ -389,5 +389,5 @@ xii. **`Query 12: `**
           
           DELIMITER ;
        ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/having.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/ntile.PNG)
    Importance:  NTILE() function can be use when assigning a number_expression for every row in a group, to which the row belongs.
