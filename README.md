@@ -238,4 +238,34 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/10.PNG)
    Importance: The CONCAT function implicitly coverts all arguments to string types and then concatenate the inputs.
-
+   
+11 **`Query 11: `**
+     Triggers: Help the database designer ensure certain actions, such as maintaining an audit file, are completed regardless of which program or user makes changes to the data. 
+   
+       ```SQL
+         DELIMITER //
+                 
+      CREATE TRIGGER insert_trigger BEFORE INSERT ON
+         locations FOR EACH ROW
+      SET NEW
+          .complete_address = CONCAT(
+              NEW.street_address,
+              ', ',
+              NEW.city,
+              ', ',
+              NEW.state_province
+          );
+      CREATE TRIGGER update_trigger BEFORE UPDATE
+      ON
+          locations FOR EACH ROW
+      SET NEW
+          .complete_address = CONCAT(
+              NEW.street_address,
+              ', ',
+              NEW.city,
+              ', ',
+              NEW.state_province
+          );
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/10.PNG)
+   Importance:  The trigger is mostly used for maintaining the integrity of the information on the database.
