@@ -50,6 +50,27 @@ The sample data can be download [here.](https://www.sqltutorial.org/what-is-sql/
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/5.PNG)
    Importance: It is important and useful when you want to retrieved data by combining column values of two table.
    
+   1. **`Query 1: `**
+     RIGHT JOIN: The RIGHT JOIN keyword returns all records from the right table (table2), and the matched records from the left table (table1).
+   
+       ```SQL
+         DELIMITER //
+         
+         SELECT
+          locations.location_id,
+          countries.country_id,
+          countries.country_name
+      FROM
+          locations
+      RIGHT JOIN countries ON countries.country_id = countries.country_id
+      ORDER BY
+          locations.location_id;
+
+         DELIMITER ;
+       ```
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/5.PNG)
+   Importance: The use RIGHT OUTER JOIN is to try to make your SQL more self-documenting. 
+   
    2. **`Query 2: `**
      ORDER BY: This is used along with the select statement to sort the results either in ascending order or descending order. 
    
