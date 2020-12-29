@@ -438,6 +438,6 @@ xii. **`Query 12: `**
           
           DELIMITER ;
   ```
-   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/ntile.PNG)
+   ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/partitionby.PNG)
   ##### Importance:  We use SQL PARTITION BY to divide the result set into partitions and perform computation on each subset of partitioned data.
   
