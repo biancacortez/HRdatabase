@@ -327,6 +327,7 @@ xii. **`Query 12: `**
        ```
    ### Sample [output.](https://github.com/biancacortez/HRdatabase/blob/main/img/ouput/13.PNG)
    Importance:  This function is useful in assigning a rank to each row within a partition of a result set.
+   
    xv. **`Query 15: `**
      COUNT(): COUNT() returns the number of rows in a specified table, and it preserves duplicate rows.  
    
